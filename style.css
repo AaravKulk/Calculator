@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#basic{
+    border-radius: 500px;
+    border-color: coral;
+    border-style: solid;
+    padding: 35px;
+}
+
+#bas{
+    width: 90px;
+    height: 70px;
+    background-color: coral;
+    color: black;
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.ibox{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    background-color: coral;
+    border-color: yellow;
+}
+
+u{
+    background-color: yellow;
+}
+
+#line{
+    width: 45%;
+}
+
+.decimal{
+ border-radius: 500px;
+    border-color: coral;
+    border-style: solid;
+    padding: 35px;   
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+  <h1 class="title"><b><u>Calculator</u></b></h1>
+        <br>
+        <div id="basic">
+        <h2>Basic Calculations</h2>
+            <h3>First Number:</h3>  <input type="number" class="ibox" id="no1">
+            <br>
+            <h3>Second Number:</h3> <input type="number" class="ibox" id="no2">
+            <br>
+            <br>
+            <span>
+            <button type="button" id="bas" onclick="add()">Add</button>
+                &nbsp;
+                <button type="button" id="bas" onclick="sub()">Subtract</button>
+                &nbsp;
+                <button type="button"  id="bas" onclick="mul()">Multiply</button>
+                &nbsp;
+                <button type="button" id="bas" onclick="div()">Divide</button>
+            </span>
+            <br>
+            <br>
+            <p id="ans">Result</p>
+        </div>
+    <br>
+        <br>
+        <div class="decimal">
+        <h2>Fractions To Decimals</h2>
+            <h3>Numerator:</h3>
+            <input type="number" class="ibox" id="num1">
+            <br>
+            <br>
+            <hr id="line">
+            <h3>Denominator:</h3>
+            <input type="number" class="ibox" id="num2">
+            <br>
+            <br>
+            <button type="button" id="bas" onclick="convert()">Convert To Decimals</button>
+            <br>
+            <p id="converted">Result</p>
+        </div>
+    </body>
+</html>
